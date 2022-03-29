@@ -37,6 +37,6 @@ addVehicleForm.addEventListener("submit", (e) => {
 
     if (errorMessage === "") {
         const id = setData("db", data);
-        window.location.href = `/enteredVehicle.html?id=${id}`;
+        window.location.href = `/Info2070_assignment3/enteredVehicle.html?id=${id}`;
     }
 });
